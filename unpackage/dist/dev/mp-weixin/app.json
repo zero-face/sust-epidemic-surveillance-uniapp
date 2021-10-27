@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/news/news",
+    "pages/communication/communication",
+    "pages/ariticleDetail/ariticleDetail",
+    "pages/comDetail/comDetail",
+    "pages/userDetail/userDetail",
+    "pages/auth/auth",
+    "pages/contact/contact"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#10aeb5",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "static/news.png",
+        "selectedIconPath": "static/news1.jpg"
+      },
+      {
+        "pagePath": "pages/communication/communication",
+        "text": "社区",
+        "iconPath": "static/社区3.png",
+        "selectedIconPath": "static/社区2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "./static/user1.png",
+        "selectedIconPath": "static/user3.jpg"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地理位置"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

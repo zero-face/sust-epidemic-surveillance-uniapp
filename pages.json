@@ -1,0 +1,137 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "SUST疫情防控",
+				"navigationBarBackgroundColor": "#10aeb5",
+				"navigationBarTextStyle":"white"
+			}
+		}
+	    ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/communication/communication",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/ariticleDetail/ariticleDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/comDetail/comDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#5bbdfe"
+            }
+            
+        }
+        ,{
+            "path" : "pages/userDetail/userDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户信息",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#5bbdfe"
+            }
+            
+        }
+        ,{
+            "path" : "pages/auth/auth",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "实名认证",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#eee"
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	        "color": "#000000",
+	        "selectedColor": "#10aeb5",
+	        "borderStyle": "black",
+	        "backgroundColor": "#ffffff",
+	        "height": "50px",
+	        "fontSize": "10px",
+	        "iconWidth": "24px",
+	        "spacing": "3px",
+			"list": [
+				 {
+					 "pagePath": "pages/index/index",
+					 "text":"首页",
+					 "iconPath":"static/home.png",
+					 "selectedIconPath":"static/home1.png"
+				 },
+				 {
+					 "pagePath": "pages/news/news",
+					 "text":"资讯",
+					 "iconPath":"static/news.png",
+					 "selectedIconPath":"static/news1.jpg"
+				 },
+				 {
+					 "pagePath": "pages/communication/communication",
+					 "text":"社区",
+					 "iconPath":"static/社区3.png",
+					 "selectedIconPath":"static/社区2.png"
+				 },
+				 {
+					 "pagePath": "pages/user/user",
+					 "text":"个人中心",
+					 "iconPath":"./static/user1.png",
+					 "selectedIconPath":"static/user3.jpg"
+				 }
+			 ]
+	}
+}

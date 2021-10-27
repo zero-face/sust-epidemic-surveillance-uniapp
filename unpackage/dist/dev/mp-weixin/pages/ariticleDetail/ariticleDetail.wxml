@@ -1,0 +1,1 @@
+<view><view><u-navbar vue-id="7a993500-1" background="{{background}}" title="今日新闻" title-color="white" is-back="{{false}}" bind:__l="__l"></u-navbar></view></view>

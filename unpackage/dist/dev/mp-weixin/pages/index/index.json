@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "SUST疫情防控",
+  "navigationBarBackgroundColor": "#10aeb5",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-parse": "/uview-ui/components/u-parse/u-parse"
+  }
+}
